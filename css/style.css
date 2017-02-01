@@ -1,0 +1,129 @@
+body {
+    background-color: #ABA59F;
+}
+.whole_page {
+    width: 929px;
+    margin: 0 auto;
+}
+.img {
+    text-align: center;
+    background: -webkit-radial-gradient(circle closest-corner at 50% -50px, #fff, #ABA59F);
+    background: radial-gradient(circle closest-corner at 50% -50px, #fff, #ABA59F);
+    
+}
+.header {
+    position: relative;
+    height: 55px;
+    background-color: #fff; 
+    line-height: 3.4;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.footer {
+    line-height: 3.6;    
+}
+.footer a {
+    text-decoration: none;
+    color: #5D5D5D;
+    font: 14px Rockwell;
+}
+.header li, .footer li{
+    display: inline;
+    margin-left: 40px;
+}
+.header a {
+    text-decoration: none;
+    color: #5D5D5D;
+    font: 18px Rockwell;
+}
+.header input {
+    margin-left: 20%;
+    font: italic 18px Regular;
+    width: 260px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    background-color: #fafafa;
+}
+.search {
+    position: absolute;
+    top: 4px;
+    left: 94.8%;
+}
+.main_picture_background {
+    height: 375px;
+    background-color: #fff;
+    margin: 8px 0 17px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.main_picture_background img {
+    margin: 15px 12px 13px 11px;
+}
+
+.div1, .div2, .div3, .div4 {
+    position: relative;
+    height: 375px;
+    width: 224px;
+    background-color: #fff;
+    float: left;
+    margin-left: 11px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.div1 {
+    margin-left: 0;
+}
+.div1 img, .div2 img, .div3 img, .div4 img {
+    margin: 12px 11px 10px;
+}
+p {
+    text-align: justify;
+    margin: 6px 11px;
+    text-indent: 36px;
+    color: #5b5b5b;
+    font-size: 12px;
+}
+.blok a, .veiw a{
+    position: absolute;
+    text-decoration: none;
+    color: #5b5b5b;
+    font-size: 12px;
+    text-decoration: underline;
+    right: 14px;
+    bottom: 21px;
+}
+.clear {
+    clear: both;
+}
+.veiw {
+    position: relative;
+    height: 187px;
+    background-color: #fff;
+    margin: 16px 0 15px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+.table {
+    position: absolute;
+    max-width: 216px;
+    max-height: 166px;
+    margin: 10px;
+    float: left;
+}
+.table img {
+    height: 79px;
+    width: 105px;
+}
+.text {
+    position: absolute;
+    right: 13px;
+    width: 675px;
+}
+
+.footer {
+    height: 55px;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+h2 {
+    margin: 15px 0 10px;
+}
+.text p {
+    margin-left: 0;
+}
