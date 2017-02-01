@@ -1,5 +1,7 @@
 body {
     background-color: #ABA59F;
+    background: -webkit-radial-gradient(circle closest-corner at 50% 0, #fff, #ABA59F);
+    background: radial-gradient(circle closest-corner at 50% 0, #fff, #ABA59F);
 }
 .whole_page {
     width: 929px;
@@ -7,9 +9,6 @@ body {
 }
 .img {
     text-align: center;
-    background: -webkit-radial-gradient(circle closest-corner at 50% -50px, #fff, #ABA59F);
-    background: radial-gradient(circle closest-corner at 50% -50px, #fff, #ABA59F);
-    
 }
 .header {
     position: relative;
@@ -33,20 +32,32 @@ body {
 .header a {
     text-decoration: none;
     color: #5D5D5D;
-    font: 18px Rockwell;
+    font: 500 18px Rockwell;
 }
-.header input {
-    margin-left: 20%;
-    font: italic 18px Regular;
+.header .under_search {
+    border: 1px solid #cdcdcd;
+    background-color: #fafafa;
+    top: 18%;
+    left: 71%;
+    position: absolute;
     width: 260px;
     height: 30px;
-    border: 1px solid #cdcdcd;
+}
+.search_line input{
+    top: 25%;
+    right: 5%;
+    position: absolute;
+    margin-left: 20%;
+    font: italic 18px Regular;
+    width: 220px;
+    height: 25px;
+    border: none;
     background-color: #fafafa;
 }
 .search {
     position: absolute;
-    top: 4px;
-    left: 94.8%;
+    top: 9px;
+    left: 90%;
 }
 .main_picture_background {
     height: 375px;
